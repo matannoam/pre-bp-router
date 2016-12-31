@@ -1,6 +1,6 @@
 {
-  "name": "preact-router",
-  "amdName": "preactRouter",
+  "name": "pre-bp-router",
+  "amdName": "preactBpRouter",
   "version": "2.3.3",
   "description": "Connect your components up to that address bar.",
   "main": "dist/preact-router.js",
