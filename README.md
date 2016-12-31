@@ -1,7 +1,7 @@
 # pre-bp-router
 
 [![NPM](http://img.shields.io/npm/v/pre-bp-router.svg)](https://www.npmjs.com/package/pre-bp-router)
-[![travis-ci](https://travis-ci.org/matannoam/pre-bp-router.svg)](https://travis-ci.org/matannoam/pre-bp-router)
+[![travis-ci](https://travis-ci.org/pre-bp/pre-bp-router.svg)](https://travis-ci.org/pre-bp/pre-bp-router)
 
 Connect your [Preact] components up to that address bar.
 

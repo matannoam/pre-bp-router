@@ -25,16 +25,20 @@
     "preact",
     "router"
   ],
-  "author": "Jason Miller <jason@developit.ca>",
+  "authors": [
+    "Jason Miller",
+    "Matan Noam Shavit"
+  ],
+  "author": "Matan Noam Shavit <matannoam@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/matannoam/pre-bp-router.git"
+    "url": "https://github.com/pre-bp/pre-bp-router.git"
   },
   "bugs": {
-    "url": "https://github.com/matannoam/pre-bp-router/issues"
+    "url": "https://github.com/pre-bp/pre-bp-router/issues"
   },
-  "homepage": "https://github.com/matannoam/pre-bp-router",
+  "homepage": "https://github.com/pre-bp/pre-bp-router",
   "peerDependencies": {
     "preact": "*"
   },
