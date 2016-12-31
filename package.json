@@ -1,7 +1,7 @@
 {
   "name": "pre-bp-router",
   "amdName": "preactBpRouter",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "description": "Connect your components up to that address bar.",
   "main": "dist/preact-router.js",
   "jsnext:main": "src/index.js",
@@ -29,12 +29,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/developit/preact-router.git"
+    "url": "https://github.com/matannoam/pre-bp-router.git"
   },
   "bugs": {
-    "url": "https://github.com/developit/preact-router/issues"
+    "url": "https://github.com/matannoam/pre-bp-router/issues"
   },
-  "homepage": "https://github.com/developit/preact-router",
+  "homepage": "https://github.com/matannoam/pre-bp-router",
   "peerDependencies": {
     "preact": "*"
   },
