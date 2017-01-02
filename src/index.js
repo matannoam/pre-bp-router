@@ -188,13 +188,13 @@ class Router extends Component {
 
 	componentDidMount() {
 		this.unlisten = customHistory.listen((location) => {
-			this.routeTo(`${location.pathname || ''}${location.search || ''}`)
-		})
+			this.routeTo(`${location.pathname || ''}${location.search || ''}`);
+		});
 		this.updating = false;
 	}
 
 	componentWillUnmount() {
-		this.unlisten()
+		this.unlisten();
 		ROUTERS.splice(ROUTERS.indexOf(this), 1);
 	}
 
