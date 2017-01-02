@@ -187,14 +187,16 @@ class Router extends Component {
 	}
 
 	componentDidMount() {
-		this.unlisten = customHistory.listen((location) => {
-			this.routeTo(`${location.pathname || ''}${location.search || ''}`);
-		});
+		if (customHistory) {
+			this.unlisten = customHistory.listen((location) => {
+				this.routeTo(`${location.pathname || ''}${location.search || ''}`);
+			});
+		}
 		this.updating = false;
 	}
 
 	componentWillUnmount() {
-		this.unlisten();
+		if (typeof this.unlisten==='function') this.unlisten();
 		ROUTERS.splice(ROUTERS.indexOf(this), 1);
 	}
 
